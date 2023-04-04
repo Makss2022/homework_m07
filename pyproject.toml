@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "homework-m07"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "homework_m07" }]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+sqlalchemy = "^2.0.8"
+psycopg2 = "^2.9.5"
+faker = "^18.3.2"
+alembic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
